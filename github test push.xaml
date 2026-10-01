@@ -74,6 +74,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Github Integration Test&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Github Integration Test 2&quot;]" />
   </Sequence>
 </Activity>
