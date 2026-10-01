@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge (469) n8n tutorial - YouTube",
+  "Type": "App",
+  "Id": "CLLhtQSIoU64jv8nYAPnsw",
+  "Reference": "UarxwLcakkKGrE4Vt6ySMA/CLLhtQSIoU64jv8nYAPnsw",
+  "Created": "2026-09-29T10:33:56.4831208Z",
+  "Updated": "2026-09-29T10:33:56.4831208Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

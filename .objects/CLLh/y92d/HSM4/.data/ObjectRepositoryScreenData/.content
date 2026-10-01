@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="EkKTzbAwpkeqhP878js_RA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1382, 736" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI7SURBVGhD3Zm/a9RBEMWnsDBgQETsLE2bkBF/dGchSMDCSgxJa6egiCn8E2IjmCqoKZNYiJwaNIFoYS/GzgQsjNolRCWi6Avv2C8cO2NCNrncTQY+zZvZ3Xncfe/2uysAJDJGiIYRomGEaBghGkaIhhGi4QZEuyB6EqKDEL0F0VGIPoDoFESfQfQ1RN9BdBGinyC6DNHVJn5BFBnrWQ3HcOzHNBfn5NyTaS2uybWvpF668j5NQLQXonWI/nEaaDfsib315X03Ijn97QzsNNjjYN48P6IIzVew195mA7NOUadTr5o/AtF/TkGnw2fiEA1ccJJRqNHATScRhWs0MOYkonCPBh47iTIO16zWWiZpYN5JlPHwKTD+BDh23uZawxwNfHASZUzU0YiVNeD6KHDglK3ZXRZo4JuTKKMyUMXCIlC7aut2j2Ua4MYqT5SRG6hi6hVwfMDW75xVGvjhJMr4nwHGz3Xgzhhw8KwdV853GsjFcjYzUMXSZ+DiDTu2kL03UMXMW+DEJTvHNmmvgZ6IBlrwFYr8EK/ti5/Rr06ijNzAHv2RRd5KvN8Xm7nw2+n7TiIKjRea8K+UkV/qz9HA0cDHKt3xD7aSgb7QR4vJxOUgJuzhbhXpeP05RP86A9sNe3oJ0f68bxM8c4ToGYgOQ3QEonchOpH+9F5A9E26lFhKlxTcT211wUGtueZLGstLEs7FOTn3NEQfpTVvQ3QIoqcb56Be5Fc20TBCNIwQDSNEwwjRMEI0jBCNDZAs2gyAqOvzAAAAAElFTkSuQmCC" Selector="&lt;html app='msedge.exe' title='(469) n8n tutorial - YouTube' /&gt;" Url="https://www.youtube.com/results?search_query=n8n+tutorial" Version="V3">
+      <imageRef attrName="InformativeScreenshot" originalValue="4c9d7cda6002ea61db703760eb413f82.jpg" xmlns="">00RBVIavOLEaz_tvRnBo8qA</imageRef>
+    </TargetApp>
+    <NInteractionMode x:Key="InteractionMode">DebuggerApi</NInteractionMode>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

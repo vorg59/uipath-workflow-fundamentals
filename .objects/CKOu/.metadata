@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge The UiPath Platform™ for Business Orchestration and Automation  UiPath",
+  "Type": "App",
+  "Id": "CKOu_kSjJ02DFcZwLHNXVg",
+  "Reference": "UarxwLcakkKGrE4Vt6ySMA/CKOu_kSjJ02DFcZwLHNXVg",
+  "Created": "2026-09-29T10:59:16.5958474Z",
+  "Updated": "2026-09-29T10:59:16.5958474Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge (469) n8n tutorial - YouTube",
+  "Type": "Screen",
+  "Id": "HSM43sNcR0KTh3_epXsznQ",
+  "Reference": "UarxwLcakkKGrE4Vt6ySMA/HSM43sNcR0KTh3_epXsznQ",
+  "ParentRef": "UarxwLcakkKGrE4Vt6ySMA/y92dqowGhEmCIJLss1648A",
+  "Created": "2026-09-29T10:33:56.5367056Z",
+  "Updated": "2026-09-29T10:33:56.5367056Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

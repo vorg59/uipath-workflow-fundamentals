@@ -1,0 +1,247 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence2" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Sequence2_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence2" sap:VirtualizedContainerService.HintSize="748,922" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="486,899" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="userChoice" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Make a choice from the below options" OptionsString="Google;YouTube;UiPath" Title="User Select Window" TopMost="False">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[userChoice]</OutArgument>
+        </ui:InputDialog.Result>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:InputDialog>
+      <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[userChoice]" sap:VirtualizedContainerService.HintSize="452,759" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+        <Switch.Default>
+          <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="450,169" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;You have made no choice&quot;]" />
+          </Sequence>
+        </Switch.Default>
+        <Sequence x:Key="Google" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Browser Edge: Google" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="4cd343bb-f468-4909-9850-a2060fb793db" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxEAAAsRAX9kX5EAAATcSURBVFhHxZd5bJNlHMcZTNdjZbJANhBPMiMOs5GIRkKUQ3YwHOeYIoFxT6IyIUaNSPiHcSxqFGQoiAuwGFBgU45sXXeUsTlGO3RAWIIwyCJBjTsowrb2/ZjnrX3XPm83SsDwSb5/tP09v9+3z/30A/qFqERgHVBJ74jfRIyIldsHle6LIMoCTsuVQkC0EW3lfCEbePw2/zZURA6RS87fp4HpQJuc6S4QuUROuU5QA6LbgnPiOGzeAPMyIWk8TBaaCJMnwbw3UPI2o9TUyq380Q2JXFy41NPogEWzIG2ct3DyeEia4C2eNBmSUiA5DSU1Hc+UGbgXrUD59YycxUdAT/gXF+Ok7/b9G2Duc5A+1qsUYWACJInikyA5GVLSIHUaSup0PFMzcKfPVeXZsVvOJhA1tDnhb0A/4Qrfh+x4r4HZL9zewJSZgQZWfgCuG3JWgagVYEA/7iVvQ+5wWPMEZD8LC0ZD5hjvMKS+BEkvew2kJKOkiu6fhidtlmagj+I+1PngMxC4zq8Vwz4L5A2DLbGwJg4WJ8LSBHhzBliPgut6T7zLBVYbnqxleKbOCaW4QNRUDYhdK5CqOK+BXdE9BnKegV1rAgvLuFwohftDKe4jURgQW2cPf/8ItQawmeBIJByIgq+HwHfLA8LuEev0k+/iUmgwQb0Jys1QaoZDw6FTv0DuAZXCQCDnRvYYqDXBcROce0+O0qi/3Iua4VSzosnR7OFqqyI3VydgAEqDAeW0CRrM4DSDwwztdjlMIzG3F61XdNpuD8lABIrogdMW1YDSEAmdzXKYhq5wMAkDuYRmwON8QDMgiqvqvCyHaeiK9aH8IB2pN+AYgOJ8ELfTSKfTyD9OA10dVXKYhkickOshIdf9nzwk5op/7NOdGmgcgdsRTtupcFyOCK7Uh/PnlVVymEa+XSHf7vGT+KyQ+mXoBgKWYfelLG6d6q8auFYfrhpwOgbT7W71D+uTjpsw7hN9L4jVIaEuw4CNqKv1EC0nw2isC+OXuv5Yf+7PNzURFJ3P9A/rk89qXDy96QZxeR3Eb7zFqA1dxG/slMME6kak24qdDY9RVNuPY7VhFNaEsf6EkdXV0exsyuF6d4ccHsC2My0M2XaeoVsuEbP1N5789C9GbrrJh0e65FCBuhXrDqP29grVQEFNGJ+fGEBO9UDm22N5tWoEybUz+f5qCW3dLv8mFP9+gVfKj2IoPMDAnSeJ3t6oGYjLa6elTbcEtcNISHccV1zMYW11BCuPRzLd/jATq55iTOVoHrWlEGNLJ9qWgcW6kKHlKzGWvIXh8EcYDmzF8EM+xj2Hify2gugdJ4nZeoG1VUHnT8BxrJuMgr1Ny5hpj+XFqnier0wgrnw8sbbZDLZlMKhsHlFlCzGXZhNZuhzzsVUYD+VhLNqEcd8eLAU2TLtLGHvwrJxWoLuQCAW9kn3R9I5qIKFiTI+Bstc0AxbrEs2A6aePNQPGwoPMqWigrdMtp+z1SiYU9FJa1+pgXM3rDLOlMahsLg+pxRcQVZaFpXQJFutiLCUriDy6GnPxemKKCthyvklO46PXS6lPuvng48gfdWSf/YpR1e8SVTZfNTHQupAoaxaPlOeQ6Shgb0s9bV235KY+bnst9+8J3XDcBXf0MPHpvj7N/HXfHqey/pfn+b9CSGaGdBXBYQAAAABJRU5ErkJggg==" InformativeScreenshot="561b1ceb32276cef779bdab097e30901.jpg" Selector="&lt;html app='msedge.exe' title='Google' /&gt;" Url="https://www.google.com/" Version="V3" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+        <Sequence x:Key="YouTube" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Browser Edge: (469) n8n tutorial - YouTube" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="1abf6b31-f84b-4456-9cde-2480aefe94ea" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI7SURBVGhD3Zm/a9RBEMWnsDBgQETsLE2bkBF/dGchSMDCSgxJa6egiCn8E2IjmCqoKZNYiJwaNIFoYS/GzgQsjNolRCWi6Avv2C8cO2NCNrncTQY+zZvZ3Xncfe/2uysAJDJGiIYRomGEaBghGkaIhhGi4QZEuyB6EqKDEL0F0VGIPoDoFESfQfQ1RN9BdBGinyC6DNHVJn5BFBnrWQ3HcOzHNBfn5NyTaS2uybWvpF668j5NQLQXonWI/nEaaDfsib315X03Ijn97QzsNNjjYN48P6IIzVew195mA7NOUadTr5o/AtF/TkGnw2fiEA1ccJJRqNHATScRhWs0MOYkonCPBh47iTIO16zWWiZpYN5JlPHwKTD+BDh23uZawxwNfHASZUzU0YiVNeD6KHDglK3ZXRZo4JuTKKMyUMXCIlC7aut2j2Ua4MYqT5SRG6hi6hVwfMDW75xVGvjhJMr4nwHGz3Xgzhhw8KwdV853GsjFcjYzUMXSZ+DiDTu2kL03UMXMW+DEJTvHNmmvgZ6IBlrwFYr8EK/ti5/Rr06ijNzAHv2RRd5KvN8Xm7nw2+n7TiIKjRea8K+UkV/qz9HA0cDHKt3xD7aSgb7QR4vJxOUgJuzhbhXpeP05RP86A9sNe3oJ0f68bxM8c4ToGYgOQ3QEonchOpH+9F5A9E26lFhKlxTcT211wUGtueZLGstLEs7FOTn3NEQfpTVvQ3QIoqcb56Be5Fc20TBCNIwQDSNEwwjRMEI0jBCNDZAs2gyAqOvzAAAAAElFTkSuQmCC" InformativeScreenshot="4c9d7cda6002ea61db703760eb413f82.jpg" Selector="&lt;html app='msedge.exe' title='(469) n8n tutorial - YouTube' /&gt;" Url="https://www.youtube.com/results?search_query=n8n+tutorial" Version="V3" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+        <Sequence x:Key="UiPath" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Edge The UiPath Platform™ for Business Orches" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="dcbfee10-ed33-4a98-a74c-c2a9559f7cc5" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Edge" ContentHash="KC0kk07lokSZb31kznAFoQ" IconBase64="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" InformativeScreenshot="8df3ccef9ff470da87d6eea22e6d3433.jpg" Reference="UarxwLcakkKGrE4Vt6ySMA/avqyX-PS40SRAZbuEZIGfQ" Selector="&lt;html app='msedge.exe' title='The UiPath Platform™ for Business Orchestration and Automation | UiPath' /&gt;" Url="https://www.uipath.com/" Version="V3" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+      </Switch>
+    </Sequence>
+  </Sequence>
+</Activity>
